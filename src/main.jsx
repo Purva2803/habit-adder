@@ -9,10 +9,12 @@ export { HabitContext }
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <HabitProvider>
     <Router>
+    <HabitProvider>
+    
     <App />
-    </Router>
+    
     </HabitProvider>
+    </Router>
   </React.StrictMode>,
 )
